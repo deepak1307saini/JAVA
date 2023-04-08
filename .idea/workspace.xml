@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee01ca7-0c36-48fe-bb78-0eb8ba0e5b0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BFSDisconnectedComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/GFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
