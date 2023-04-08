@@ -1,8 +1,10 @@
 package Graphs;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
-public class GFS {
+public class SrcToDestAllPath {
     static class Edge {
         int src;
         int dest;
@@ -42,28 +44,45 @@ public class GFS {
         graph[6].add(new Edge(6, 5));
     }
 
-    public static void dfs(ArrayList<Edge> graph[], int curr, boolean vis[]) {
-        System.out.print(curr + " ");
-        vis[curr] = true;
 
-        for (int i = 0; i < graph[curr].size(); i++) {
-            Edge e = graph[curr].get(i);
-            if (vis[e.dest]==false){
-                dfs(graph, e.dest, vis);
-            }
+    public static void dfs(ArrayList<Edge> graph[],boolean vis[],int target,int curr,String path){
+        if (curr==target){
+            System.out.println(path);
+            return;
         }
 
+
+        for (int i = 0; i < graph[curr].size(); i++) {
+            Edge e=graph[curr].get(i);
+            if(vis[e.dest]==false){
+                vis[curr]=true;
+                dfs(graph,vis,target,e.dest,path+e.dest);
+                vis[curr]=false;
+            }
+        }
     }
+
 
     public static void main(String[] args) {
         int V = 7;
 
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
+        String path="";
 
-        boolean vis[] = new boolean[V];
+        boolean vis[]=new boolean[V];
+        int s=0,d=5;
 
-        dfs(graph, 0, vis);
+//        for (int i = 0; i < V; i++) {
+//            if(vis[i]==false){
+
+                dfs(graph,vis,d,s,"0");
+//            }
+//        }
 
     }
 }
+//        01345
+//        0135
+//        02435
+//        0245
