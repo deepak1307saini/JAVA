@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee01ca7-0c36-48fe-bb78-0eb8ba0e5b0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/DFSDisconnectedComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/SrcToDestAllPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/CycleDetectionInDirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/GFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/DFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
