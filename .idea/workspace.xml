@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee01ca7-0c36-48fe-bb78-0eb8ba0e5b0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bit_Manipulation/ValueOfBitOnAPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/CycleDetectionInUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/AllPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/AllSubSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/KeypadCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/NoOfWaysMakePair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PlaceTiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/QueensChessBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SubSetOfNNaturalNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/TotalNumberOfPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/UniquePermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/UniqueSubSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/xPowNInLogN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pattern/Butterfly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pattern/Butterfly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +54,37 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GraphArrayList">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="6974636a-0aa4-4350-b832-4c0606070b4d" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GraphArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graphs.GraphArrayList" />
       <module name="Java Programs" />
@@ -50,8 +98,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlaceTiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PlaceTiles" />
+      <module name="Java Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.RemoveDuplicates" />
+      <module name="Java Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlaceTiles" />
+        <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.GraphArrayList" />
       </list>
     </recent_temporary>

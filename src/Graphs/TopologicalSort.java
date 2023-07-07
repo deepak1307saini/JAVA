@@ -9,7 +9,7 @@ public class TopologicalSort {
         int dest;
 
         public Edge(int s, int d) {
-            this.src = s;
+            this.src = s ;
             this.dest = d;
         }
     }
